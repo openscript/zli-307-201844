@@ -1,7 +1,4 @@
 <?php
-phpinfo();
-
-if(true) {
-    echo('hoi');
-}
+echo('Hello World');
+var_dump('Hello World');
 ?>
