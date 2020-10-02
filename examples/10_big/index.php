@@ -47,11 +47,11 @@ if($input_submit !== null) {
         <?php if($input_submit !== null && count($errors) <= 0): ?>
         <dl>
             <dt>Gamertag</dt>
-            <dd><?= $input_tag ?></dt>
+            <dd><?= $input_tag ?></dd>
             <dt>Alter</dt>
-            <dd><?= $input_age ?></dt>
+            <dd><?= $input_age ?></dd>
             <dt>Spiele</dt>
-            <dd><?= implode(',', $input_games) ?></dt>
+            <dd><?= implode(',', $input_games) ?></dd>
         </dl>
         <?php else: ?>
         <form method="POST">
